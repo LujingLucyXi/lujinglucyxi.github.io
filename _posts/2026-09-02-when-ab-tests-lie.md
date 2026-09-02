@@ -139,7 +139,7 @@ Treatment changed the environment in which control operates.
 
 This is a classic marketplace interference problem.
 
-DoorDash addresses this class of problem with **switchback experiments**, randomizing treatment and control across geographic-region/time units rather than individual deliveries. That keeps the marketplace state more coherent within an experimental unit and reduces interference between treatment and control. citeturn0search1turn0search4
+DoorDash addresses this class of problem with **switchback experiments**, randomizing treatment and control across geographic-region/time units rather than individual deliveries. That keeps the marketplace state more coherent within an experimental unit and reduces interference between treatment and control. 
 
 The conceptual difference is:
 
