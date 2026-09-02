@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+{% feed_meta %}
+{% seo %}
+</head>
+<body>
+<div class="scanline"></div>
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">LX</span><span>LUJING XI</span></a>
+  <nav>
+    <a href="{{ '/writing/' | relative_url }}">Writing</a>
+    <a href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+    <a class="nav-github" href="https://github.com/lujinglucyxi" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </nav>
+</header>
+<main>{{ content }}</main>
+<footer class="footer"><div><strong>LX / 2026</strong><span>Data · Product · AI</span></div><div><a href="https://github.com/lujinglucyxi">GitHub</a><a href="https://www.linkedin.com/">LinkedIn</a></div></footer>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

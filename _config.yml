@@ -1,0 +1,21 @@
+title: "Lujing Xi — Data · Product · AI"
+description: "A technical journal on product analytics, experimentation, AI evaluation, and marketplace systems."
+url: "https://lujinglucyxi.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /writing/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+author:
+  name: "Lujing Xi"
+  bio: "Product-focused Data Scientist working at the intersection of product, analytics, experimentation, and AI."
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="post-top"><a href="/writing/">← All writing</a><span>{{ page.category }}</span></div>
+  <div class="post-header">
+    <div class="meta">{{ page.category | upcase }} · {{ page.read_time }} MIN READ</div>
+    <h1>{{ page.title }}</h1>
+    <p class="dek">{{ page.description }}</p>
+    <div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
+  </div>
+  <div class="post-layout">
+    <aside><div>ON THIS PAGE</div><span>Framework</span><span>Analysis</span><span>Implications</span></aside>
+    <div class="prose">{{ content }}</div>
+  </div>
+</article>
