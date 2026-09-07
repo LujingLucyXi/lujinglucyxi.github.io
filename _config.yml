@@ -3,6 +3,7 @@ description: "A technical journal on product analytics, experimentation, AI eval
 url: "https://lujinglucyxi.github.io"
 baseurl: ""
 markdown: kramdown
+future: true
 permalink: /writing/:title/
 plugins:
   - jekyll-feed
