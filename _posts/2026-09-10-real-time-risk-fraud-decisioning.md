@@ -43,16 +43,16 @@ The winners are the companies turning that pattern into a product.
 
 A cohort is racing to own different layers of this stack:
 
-- **Sardine** — device intelligence and behavioral biometrics fused into a real-time risk score across fraud, AML, and payments. The bet: the richest early signal is *how* a user behaves, not just *what* they submit.
-- **Unit21** — a low-code risk-operations platform aimed at analysts and investigators, not just data scientists. Its wedge is the decision and case-management layer — authoring, testing, and monitoring detection logic without shipping code for every rule change.
-- **Taktile** — a decision-engine platform for credit and fraud that treats risk policy as a product surface: version, A/B test, and monitor decision flows the way software teams ship code.
-- **Oscilar** — founded by Confluent alumni, explicitly AI-native and streaming-first, unifying fraud, credit, and compliance decisioning on one backbone.
+- **Sardine** — device intelligence and behavioral biometrics fused into a real-time risk score across fraud, AML, and payments, claiming decisioning in under 150ms and now layering in AI agents that automate alert reviews and regulatory filings. Named a Leader in Forrester's Q3 2026 Financial Crime Management Wave; used by 300+ banks and fintechs. The bet: the richest early signal is *how* a user behaves, not just *what* they submit.
+- **Unit21** — the pioneer of *no-code* tooling for risk and compliance teams, relaunched in March 2026 as "AI Risk Infrastructure" built around agentic AI that tunes rules, investigates alerts, and files reports end-to-end. Its enduring wedge is the decision and case-management layer for analysts, not just data scientists (customers include Chime and Intuit).
+- **Taktile** — a no-code decision-engine platform for credit and fraud (founded 2020 by ex-QuantCo Harvard alums) that treats risk policy as a product surface: build with low-code blocks, then backtest, A/B test, and monitor decision flows the way software teams ship code. Customers include Mercury and Zilch.
+- **Oscilar** — founded by Confluent and Apache Kafka co-creator Neha Narkhede, explicitly AI-native and streaming-first, unifying fraud, credit, and compliance decisioning on one backbone. Its Agent Hub spans fraud, compliance, credit, and onboarding; customers include SoFi and MoneyGram.
 
 Adjacent players — Alloy (identity decisioning), Hummingbird (compliance case work) — are converging on the same center of gravity: the *decisioning platform*, not the point solution. What unites them is that they don't sell a single model. They sell the infrastructure to compute features fast, decide consistently, explain the decision, and learn from the outcome.
 
 ## The data problems nobody puts on the landing page
 
-**01 — Train/serve skew.** Features computed in a batch training pipeline must match, to the decimal, the features computed live in a 200ms budget. When they drift apart, your offline AUC lies to you. This is why online feature stores are the real center of gravity — not the model architecture.
+**01 — Train/serve skew.** Features computed in a batch training pipeline must match, to the decimal, the features computed live in a sub-150ms budget. When they drift apart, your offline AUC lies to you. This is why online feature stores are the real center of gravity — not the model architecture.
 
 **02 — Label latency and selection bias.** Fraud labels arrive late and biased. A "good" transaction today may be confirmed fraud in 60 days. And you only see outcomes for transactions you *approved* — the declines are a counterfactual black hole that quietly poisons the next model.
 
