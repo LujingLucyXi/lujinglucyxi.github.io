@@ -50,6 +50,7 @@ title: Home
     <a href="/projects/metric-systems/" class="system-row"><span>01</span><div><h3>Metric Systems</h3><p>From fragmented signals to decision-ready measurement.</p></div><b>↗</b></a>
     <a href="/projects/experimentation/" class="system-row"><span>02</span><div><h3>Experimentation</h3><p>Designing tests that connect product changes to causal outcomes.</p></div><b>↗</b></a>
     <a href="/projects/ai-evaluation/" class="system-row"><span>03</span><div><h3>AI Evaluation</h3><p>Frameworks for quality, reliability, and regression testing.</p></div><b>↗</b></a>
+    <a href="/projects/enforcement-pricing/" class="system-row"><span>04</span><div><h3>The Price of Enforcement</h3><p>Causal GMV pricing and a triage decision model for marketplace safety.</p></div><b>↗</b></a>
   </div>
 </section>
 

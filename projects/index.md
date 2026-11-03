@@ -7,4 +7,5 @@ title: Projects
 <a href="/projects/metric-systems/" class="project-tile"><span>01</span><h2>Metric Systems</h2><p>Designing metric hierarchies and measurement systems that make complex businesses legible.</p><b>Explore ↗</b></a>
 <a href="/projects/experimentation/" class="project-tile"><span>02</span><h2>Experimentation</h2><p>Experiment design, causal inference, guardrails, and decision frameworks.</p><b>Explore ↗</b></a>
 <a href="/projects/ai-evaluation/" class="project-tile"><span>03</span><h2>AI Evaluation</h2><p>Building practical evaluation systems for LLM quality, policy alignment, and reliability.</p><b>Explore ↗</b></a>
+<a href="/projects/enforcement-pricing/" class="project-tile"><span>04</span><h2>The Price of Enforcement</h2><p>Causal GMV pricing for marketplace enforcement, and a triage table that picks the lightest action clearing the safety bar.</p><b>Explore ↗</b></a>
 </div>
