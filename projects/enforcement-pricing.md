@@ -19,7 +19,7 @@ description: "A dollar metric for marketplace enforcement: causal GMV pricing wi
 
 <div class="prose case-prose" markdown="1">
 
-> Built on my enforcement GMV-impact work at TikTok Shop and rebuilt end-to-end on a **synthetic dataset** (10,000 sellers, Jan–May 2025, seed-reproducible) shaped like the production schema. No real seller data appears here. I first presented it as a 20-minute technical talk.
+> **The business problem is real, and I owned this work at TikTok Shop.** This public case study demonstrates the problem and my approach using a fully **synthetic dataset** (10,000 simulated sellers, Jan–May 2025, seed-reproducible) shaped like the production schema. The figures and impact estimates below are illustrative outputs from that synthetic data; they are not TikTok Shop production results, and no real seller data appears here. I first presented the framework as a 20-minute technical talk.
 
 ## 01 — The problem: safety has a price, and it's unknown
 
